@@ -5,6 +5,11 @@
   "exports": {
     "./client": "./src/index.ts"
   },
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate",
+    "db:seed": "prisma db seed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
